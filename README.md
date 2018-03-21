@@ -1,5 +1,5 @@
 # wp-autoload
-Simple Autoloader for WordPress
+Simple Autoloader for WordPress. WP Autoload is mained by [Make it WorkPress](https://www.makeitworkpress.com/wordpress-solutions/scripts/wp-autoload/).
 
 ## Usage
 This is a php script that makes your PHP classes load automatically when they are initiated. 
