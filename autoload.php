@@ -2,7 +2,7 @@
 /**
  * Registers the autoloader for classes
  *
- * @author	Michiel Tramper - https://www.michieltramper.com
+ * @author	Michiel Tramper - https://www.makeitworkpress.com
  * @todo	Make the autoloader comply with the coding standards of WordPress
  */
 spl_autoload_register( function($classname) {
