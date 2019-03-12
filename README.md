@@ -17,7 +17,7 @@ Now, let's say you are building a new WordPress theme. Within this theme, you ar
 - classes\theme.php
 - classes\models\model.php
 
-In the functions.php, we include the autoloader and call our classes. 
+In the functions.php, we include the autoloader and call our classes:
 ```php
 spl_autoload_register( function($classname) {
     
@@ -35,7 +35,7 @@ $model = new Models\Model.php
 ```
 Because we have indicated the 'classes' folder in our autoloader, it will automatically require classes from within the classes folder and we don't have to require them manually.
 
-The theme class is not namespaced, as it is in the root of our classes folder and the autoloader starts loading from that. It my look like this (for starters).
+The theme class is not namespaced, as it is in the root of our classes folder and the autoloader starts loading from that. It my look like this (for starters):
 ```php
 <?php
 class Theme {
@@ -44,7 +44,7 @@ class Theme {
 }
 ```
 
-The model class is namespaced, because it is in a subfolder. The model.php file may look like this . 
+The model class is namespaced, because it is in a subfolder. The model.php file may look like this: 
 ```php
 <?php
 namespace Models;
