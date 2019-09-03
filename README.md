@@ -114,4 +114,4 @@ spl_autoload_register( function($classname) {
 
 This will both autoload any class called from the classes folder, if properly namespaced and also all the modules added by composer. Because we're using components from makeitworkpress, these are placed within the vendor/makeitworkpress folder.
 
-Please note that composer also adds their own autoloading functions in the respective vendor folders. You also may require these and use them to autload components.
+Please note that composer also adds their own autoloading functions in the respective vendor folders. You also may require these and use them to autoload components.
